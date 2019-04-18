@@ -122,8 +122,9 @@
   /* letter-spacing: 1px; */
   line-height: 1.4;
   font-size: 16px;
-  text-align: right;
+  text-align: justify;
   font-size: 14px;
+  text-align-last: center;
 }
 
 .index-title{
