@@ -1,0 +1,225 @@
+
+.collapsing.width {
+  -webkit-transition-property: width, visibility;
+  transition-property: width, visibility;
+  transition-duration: 0.8s;
+  width: 0;
+  height: auto;
+}
+
+.innovation-accordion, .innovation-accordion-main, .innovation-accordion-frame, .innovation-accordion-content, .innovation-accordion-button{
+  height: 416px;
+}
+
+.innovation-accordion{
+  width: 1138px;
+}
+
+.innovation-accordion-main, .innovation-accordion-frame{
+  width: 978px;
+}
+
+.innovation-accordion-frame{
+  background-size: cover;
+}
+
+.innovation-accordion-content{
+  word-wrap: break-word;
+  height: 100%;
+  margin-left: 578px;
+  padding-right: 60px;
+  padding-top: 65px;
+  position: relative;
+  opacity: 0;
+  /* padding-top: 45px; */
+  top: 0px;
+}
+
+.accordion-content-transition{
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  top: -20px;
+  /* background-color: blue; */
+}
+
+
+.innovation-accordion-content-text{
+  height: 80%;
+}
+
+.innovation-accordion-content-text-1, .innovation-accordion-content-text-1-m{
+  color: #ED1C24;
+  letter-spacing: 10px;
+  line-height: 1.1;
+  font-weight: bold;
+  text-shadow: 1px 0 #ED1C24;
+  margin-bottom: 10px;
+}
+
+.innovation-accordion-content-text-1{
+  font-size: 30px;
+}
+
+.innovation-accordion-content-text-2{
+  word-wrap: break-word;
+  text-align: justify;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.innovation-accordion-content-button{
+  height: 20%;
+}
+
+.innovation-accordion-button-img{
+  height: 24px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.innovation-accordion-button{
+  width: 32px;
+}
+
+
+.innovation-accordion-button:disabled, .innovation-accordion-button-m:disabled, .innovation-accordion-button-m:focus{
+  opacity: 1 !important;
+  color: #FFFFFF;
+}
+
+.innovation-accordion-button-1{
+  background-color: #F04B51;
+}
+
+.innovation-accordion-button-2{
+  background-color: #EF4045;
+}
+
+.innovation-accordion-button-3{
+  background-color: #EE343B;
+}
+
+.innovation-accordion-button-4{
+  background-color: #EE2D31;
+}
+
+.innovation-accordion-button-5{
+  background-color: #ED1C24;
+}
+
+.innovation-accordion-background-1{
+  background-image: url("../images/innovation-1-d.png");
+}
+
+.innovation-accordion-background-2{
+  background-image: url("../images/innovation-2-d.png");
+}
+
+.innovation-accordion-background-3{
+  background-image: url("../images/innovation-3-d.png");
+}
+
+.innovation-accordion-background-4{
+  background-image: url("../images/innovation-4-d.png");
+}
+
+.innovation-accordion-background-5{
+  background-image: url("../images/innovation-5-d.png");
+}
+
+.innovation-accordion-rotate{
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 416px;
+  height: 32px;
+  white-space: nowrap;
+  transform: translateX(-205px) rotate(270deg);
+  padding-top: 8px;
+}
+
+.innovation-accordion-content-lg{
+  background-size: cover;
+}
+
+.innovation-accordion-content-md{
+  background-size: cover;
+  height: 140px;
+}
+
+.innovation-accordion-content-g{
+  background-color: #F7F8F8;
+  word-wrap: break-word;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.innovation-accordion-content-text-container{
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.innovation-accordion-content-text-container::-webkit-scrollbar {
+  /* width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.innovation-accordion-content-text-1-m{
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.accordian-button-md{
+  height: 24px;
+}
+
+.innovation-accordion-button-m{
+  width: 100%;
+  height: 28px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.innovation-accordion-background-lg-1{
+  background-image: url("../images/innovation-1-lg.png");
+}
+
+.innovation-accordion-background-lg-2{
+  background-image: url("../images/innovation-2-lg.png");
+}
+
+.innovation-accordion-background-lg-3{
+  background-image: url("../images/innovation-3-lg.png");
+}
+
+.innovation-accordion-background-lg-4{
+  background-image: url("../images/innovation-4-lg.png");
+}
+
+.innovation-accordion-background-lg-5{
+  background-image: url("../images/innovation-5-lg.png");
+}
+
+.innovation-accordion-background-md-1{
+  background-image: url("../images/innovation-1-md.png");
+}
+
+.innovation-accordion-background-md-2{
+  background-image: url("../images/innovation-2-md.png");
+}
+
+.innovation-accordion-background-md-3{
+  background-image: url("../images/innovation-3-md.png");
+}
+
+.innovation-accordion-background-md-4{
+  background-image: url("../images/innovation-4-md.png");
+}
+
+.innovation-accordion-background-md-5{
+  background-image: url("../images/innovation-5-md.png");
+}
